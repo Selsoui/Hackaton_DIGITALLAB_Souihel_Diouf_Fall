@@ -14,7 +14,7 @@ EQ            = =
 
 CC            = gcc
 CXX           = g++
-DEFINES       = -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
+DEFINES       = -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT -fPIC $(DEFINES)
 CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT -fPIC $(DEFINES)
 INCPATH       = -I. -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtMultimedia -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtNetwork -isystem /usr/include/qt5/QtCore -I. -isystem /usr/include/libdrm -I. -I/usr/lib64/qt5/mkspecs/linux-g++
@@ -639,11 +639,6 @@ qrc_resources.cpp: resources.qrc \
 		src/img/icon_settings.png \
 		src/img/background.jpg \
 		src/img/icon_help.png \
-		src/img/tiles/left_key.png \
-		src/img/tiles/right_key.png \
-		src/img/tiles/down_key.png \
-		src/img/tiles/up_key.png \
-		src/img/tiles/space_key.png \
 		src/audio/theme.mp3 \
 		src/font/pixel.ttf
 	/usr/lib64/qt5/bin/rcc -name resources resources.qrc -o qrc_resources.cpp

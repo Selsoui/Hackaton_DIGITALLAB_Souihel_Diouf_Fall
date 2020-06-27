@@ -53,7 +53,7 @@
    <widget class="QPushButton" name="play_button">
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>550</x>
       <y>510</y>
       <width>264</width>
       <height>87</height>

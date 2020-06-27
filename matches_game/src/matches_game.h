@@ -8,12 +8,19 @@
 #include <QKeyEvent>
 #include <QFontDatabase>
 #include <QMediaPlayer>
+#include <QMediaPlaylist>
 #include <QGraphicsPixmapItem>
+#include <math.h>
+#include <QMouseEvent>
+#include <QGraphicsView>
+#include <QHBoxLayout>
+#include <QStandardItemModel>
+#include <vector>
 
-const int MATCH_SIZE = 25;
+const int MATCH_SIZE = 10;
 const int MARGIN     = 5 ;
-const int AREA_ROW   = 100;
-const int AREA_COL   = 100;
+const int AREA_ROW   = 1200;
+const int AREA_COL   = 1200;
 const int FONT_SIZE  = 10;
 
 
@@ -38,8 +45,9 @@ public:
     void StartGame(int number_matches);
     void GameOver();
 
-    void Matches_layout(int number_matches);
-    void Create_match(int coordX, int coordY);
+    std::vector<QGraphicsPixmapItem*>  Matches_layout(int number_matches);
+    QGraphicsPixmapItem* Create_match(int coordX, int coordY);
+    void Delete_match(int coordX, int coordY);
     int get_number_matches();
     void set_number_matches(int number_matches);
 
@@ -50,7 +58,7 @@ public:
 
     virtual void paintEvent(QPaintEvent *event);
     virtual void timerEvent(QTimerEvent *event);
-    //virtual void keyPressEvent(QKeyEvent *event);
+    virtual void mousePressEvent(QMouseEvent *event);
 
 private:
     Ui::Game *ui;
