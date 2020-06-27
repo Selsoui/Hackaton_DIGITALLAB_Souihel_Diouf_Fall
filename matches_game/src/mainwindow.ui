@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>450</width>
-    <height>520</height>
+    <width>1350</width>
+    <height>1560</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,8 +23,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>450</width>
-      <height>520</height>
+      <width>1350</width>
+      <height>1560</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -37,26 +37,26 @@
    <widget class="QLabel" name="developer">
     <property name="geometry">
      <rect>
-      <x>145</x>
-      <y>450</y>
-      <width>161</width>
-      <height>61</height>
+      <x>200</x>
+      <y>1350</y>
+      <width>750</width>
+      <height>183</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>DEVELOPED BY ANGELORTIZV</string>
+     <string>DEVELOPED BY Souihel - Diouf - Fall</string>
     </property>
    </widget>
    <widget class="QPushButton" name="play_button">
     <property name="geometry">
      <rect>
-      <x>182</x>
-      <y>170</y>
-      <width>88</width>
-      <height>29</height>
+      <x>600</x>
+      <y>510</y>
+      <width>264</width>
+      <height>87</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -70,10 +70,10 @@ background-color: rgb(138, 226, 52);</string>
    <widget class="QLabel" name="logo">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>40</y>
-      <width>141</width>
-      <height>121</height>
+      <x>480</x>
+      <y>120</y>
+      <width>423</width>
+      <height>363</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -87,8 +87,8 @@ background-color: rgb(138, 226, 52);</string>
     <property name="geometry">
      <rect>
       <x>182</x>
-      <y>220</y>
-      <width>88</width>
+      <y>660</y>
+      <width>600</width>
       <height>29</height>
      </rect>
     </property>
@@ -97,16 +97,16 @@ background-color: rgb(138, 226, 52);</string>
 background-color: rgb(164, 164, 164);</string>
     </property>
     <property name="text">
-     <string>LEVEL: 1</string>
+     <string>Playing mode : Player1_Player2</string>
     </property>
    </widget>
    <widget class="QPushButton" name="settings_button">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>400</y>
-      <width>40</width>
-      <height>40</height>
+      <x>480</x>
+      <y>1200</y>
+      <width>120</width>
+      <height>120</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -130,18 +130,18 @@ QPushButton:hover{
     </property>
     <property name="iconSize">
      <size>
-      <width>16</width>
-      <height>16</height>
+      <width>48</width>
+      <height>48</height>
      </size>
     </property>
    </widget>
    <widget class="QPushButton" name="help_button">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>400</y>
-      <width>40</width>
-      <height>40</height>
+      <x>750</x>
+      <y>1200</y>
+      <width>120</width>
+      <height>120</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -165,8 +165,8 @@ QPushButton:hover{
     </property>
     <property name="iconSize">
      <size>
-      <width>16</width>
-      <height>16</height>
+      <width>48</width>
+      <height>48</height>
      </size>
     </property>
    </widget>

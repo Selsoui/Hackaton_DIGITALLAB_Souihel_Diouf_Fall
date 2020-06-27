@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = Matches_game1.0.0
-DISTDIR = /home/ssouihel/matches_game/.tmp/Matches_game1.0.0
+DISTDIR = /home/ssouihel/Hackaton_DIGITALLAB_Souihel_Diouf_Fall/matches_game/.tmp/Matches_game1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-O1
 LIBS          = $(SUBLIBS) /usr/lib64/libQt5Multimedia.so /usr/lib64/libQt5Widgets.so /usr/lib64/libQt5Gui.so /usr/lib64/libQt5Network.so /usr/lib64/libQt5Core.so /usr/lib64/libGL.so -lpthread   
@@ -664,12 +664,12 @@ moc_mainwindow.cpp: src/mainwindow.h \
 		src/settings.h \
 		moc_predefs.h \
 		/usr/lib64/qt5/bin/moc
-	/usr/lib64/qt5/bin/moc $(DEFINES) --include /home/ssouihel/matches_game/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ssouihel/matches_game -I/usr/include/qt5 -I/usr/include/qt5/QtMultimedia -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/c++/9/x86_64-redhat-linux -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-redhat-linux/9/include -I/usr/local/include -I/usr/include src/mainwindow.h -o moc_mainwindow.cpp
+	/usr/lib64/qt5/bin/moc $(DEFINES) --include /home/ssouihel/Hackaton_DIGITALLAB_Souihel_Diouf_Fall/matches_game/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ssouihel/Hackaton_DIGITALLAB_Souihel_Diouf_Fall/matches_game -I/usr/include/qt5 -I/usr/include/qt5/QtMultimedia -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/c++/9/x86_64-redhat-linux -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-redhat-linux/9/include -I/usr/local/include -I/usr/include src/mainwindow.h -o moc_mainwindow.cpp
 
 moc_matches_game.cpp: src/matches_game.h \
 		moc_predefs.h \
 		/usr/lib64/qt5/bin/moc
-	/usr/lib64/qt5/bin/moc $(DEFINES) --include /home/ssouihel/matches_game/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ssouihel/matches_game -I/usr/include/qt5 -I/usr/include/qt5/QtMultimedia -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/c++/9/x86_64-redhat-linux -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-redhat-linux/9/include -I/usr/local/include -I/usr/include src/matches_game.h -o moc_matches_game.cpp
+	/usr/lib64/qt5/bin/moc $(DEFINES) --include /home/ssouihel/Hackaton_DIGITALLAB_Souihel_Diouf_Fall/matches_game/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ssouihel/Hackaton_DIGITALLAB_Souihel_Diouf_Fall/matches_game -I/usr/include/qt5 -I/usr/include/qt5/QtMultimedia -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/c++/9/x86_64-redhat-linux -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-redhat-linux/9/include -I/usr/local/include -I/usr/include src/matches_game.h -o moc_matches_game.cpp
 
 moc_help.cpp: src/help.h \
 		src/mainwindow.h \
@@ -678,7 +678,7 @@ moc_help.cpp: src/help.h \
 		src/settings.h \
 		moc_predefs.h \
 		/usr/lib64/qt5/bin/moc
-	/usr/lib64/qt5/bin/moc $(DEFINES) --include /home/ssouihel/matches_game/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ssouihel/matches_game -I/usr/include/qt5 -I/usr/include/qt5/QtMultimedia -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/c++/9/x86_64-redhat-linux -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-redhat-linux/9/include -I/usr/local/include -I/usr/include src/help.h -o moc_help.cpp
+	/usr/lib64/qt5/bin/moc $(DEFINES) --include /home/ssouihel/Hackaton_DIGITALLAB_Souihel_Diouf_Fall/matches_game/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ssouihel/Hackaton_DIGITALLAB_Souihel_Diouf_Fall/matches_game -I/usr/include/qt5 -I/usr/include/qt5/QtMultimedia -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/c++/9/x86_64-redhat-linux -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-redhat-linux/9/include -I/usr/local/include -I/usr/include src/help.h -o moc_help.cpp
 
 moc_settings.cpp: src/settings.h \
 		src/mainwindow.h \
@@ -687,7 +687,7 @@ moc_settings.cpp: src/settings.h \
 		src/settings.h \
 		moc_predefs.h \
 		/usr/lib64/qt5/bin/moc
-	/usr/lib64/qt5/bin/moc $(DEFINES) --include /home/ssouihel/matches_game/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ssouihel/matches_game -I/usr/include/qt5 -I/usr/include/qt5/QtMultimedia -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/c++/9/x86_64-redhat-linux -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-redhat-linux/9/include -I/usr/local/include -I/usr/include src/settings.h -o moc_settings.cpp
+	/usr/lib64/qt5/bin/moc $(DEFINES) --include /home/ssouihel/Hackaton_DIGITALLAB_Souihel_Diouf_Fall/matches_game/moc_predefs.h -I/usr/lib64/qt5/mkspecs/linux-g++ -I/home/ssouihel/Hackaton_DIGITALLAB_Souihel_Diouf_Fall/matches_game -I/usr/include/qt5 -I/usr/include/qt5/QtMultimedia -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/c++/9/x86_64-redhat-linux -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-redhat-linux/9/include -I/usr/local/include -I/usr/include src/settings.h -o moc_settings.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -735,7 +735,8 @@ mainwindow.o: src/mainwindow.cpp src/mainwindow.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o src/mainwindow.cpp
 
-matches_game.o: src/matches_game.cpp src/matches_game.h
+matches_game.o: src/matches_game.cpp src/matches_game.h \
+		ui_matches_game.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o matches_game.o src/matches_game.cpp
 
 help.o: src/help.cpp src/help.h \
